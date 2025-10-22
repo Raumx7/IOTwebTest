@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaz - Estilos Internos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #f9f7f0;
+            color: #3e2723;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+        }
+        
+        h1 {
+            color: #5d4037;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #8d6e63;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #8d6e63;
+            padding-bottom: 5px;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 85%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border: 8px solid #d7ccc8;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin: 20px 0;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            border: 8px solid #d7ccc8;
+        }
+        
+        .external-link {
+            display: inline-block;
+            background-color: #8d6e63;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 5px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        
+        .external-link:hover {
+            background-color: #6d4c41;
+        }
+        
+        .home-link {
+            display: inline-block;
+            background-color: #5d4037;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 5px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        
+        .home-link:hover {
+            background-color: #3e2723;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .nav-button {
+            display: inline-block;
+            background-color: #5d4037;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        
+        .nav-button:hover {
+            background-color: #3e2723;
+        }
+        
+        .button-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zaz - Isabelle Geffroy</h1>
+        
+        <div class="navigation">
+            <a href="inline.html" class="nav-button">Ver versión inline</a>
+            <a href="interna.html" class="nav-button">Ver versión interna</a>
+            <a href="externa.html" class="nav-button">Ver versión externa</a>
+        </div>
+        
+        <h2>Biografía</h2>
+        
+        <div class="image-container">
+            <img src="../imagenes/zaz.jpg" alt="Zaz en concierto">
+        </div>
+        
+        <p>
+            Zaz, cuyo nombre real es Isabelle Geffroy, es una cantante y compositora francesa nacida el 1 de mayo de 1980 en Tours, Francia. Es conocida por su estilo musical único que combina jazz, soul y música francesa. Su canción más famosa, "Je veux", se convirtió en un éxito internacional y la catapultó a la fama en 2010.
+        </p>
+        
+        <p>
+            Con una voz poderosa y expresiva, Zaz ha lanzado varios álbumes exitosos y ha realizado giras por todo el mundo. Su música a menudo transmite mensajes de libertad, amor y autenticidad, resonando con audiencias de todas las edades y culturas.
+        </p>
+        
+        <h2>El Éxito de Zaz en América Latina</h2>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/cJ7rhspWd7Y" title="Análisis del éxito de Zaz en América Latina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
+        <p>
+            En este video se analiza el fenómeno del éxito de Zaz en América Latina, explorando cómo su música traspasó fronteras y conectó con audiencias hispanohablantes. Su estilo único y mensajes universales le permitieron ganar popularidad en países como México, Argentina y Colombia.
+        </p>
+        
+        <div class="button-container">
+            <a href="https://www.zazofficial.com/" class="external-link">Visitar sitio oficial de Zaz</a>
+            <a href="../index.html" class="home-link">Regresar al Inicio</a>
+        </div>
+    </div>
+</body>
+</html>

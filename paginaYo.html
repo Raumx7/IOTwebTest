@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raúl Alejandro Momox Chávez</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #1a237e;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #283593;
+            border-bottom: 2px solid #e8eaf6;
+            padding-bottom: 10px;
+            margin: 30px 0 20px;
+        }
+        
+        h3 {
+            color: #3949ab;
+            margin: 20px 0 10px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .col {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .col:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .dual-images {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .dual-images img {
+            width: 48%;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        strong {
+            color: #1a237e;
+        }
+        
+        a {
+            color: #1a237e;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: #3949ab;
+            text-decoration: underline;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+            margin-top: 10px;
+            border: none;
+        }
+        
+        .contact-info {
+            background: #e8eaf6;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .col {
+                flex: 100%;
+            }
+            
+            .dual-images {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .dual-images img {
+                width: 80%;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        .highlight {
+            background: #e8eaf6;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #3949ab;
+            margin: 20px 0;
+        }
+
+        /* 🔹 Estilos para el botón de regreso */
+        .button-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .home-link {
+            display: inline-block;
+            background-color: #1a237e;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .home-link:hover {
+            background-color: #3949ab;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Raúl Alejandro Momox Chávez</h1>
+        </header>
+        
+        <div class="row">
+            <div class="col">
+                <div class="dual-images">
+                    <img src="imagenes/robots1.jpg" alt="Robótica 1" width="300">
+                    <img src="imagenes/robots2.jpg" alt="Robótica 2" width="300">
+                </div>
+                <h2>Acerca de mi</h2>
+                <p>
+                    Hola, soy <strong>Raúl Momox</strong>. Estudio <strong>ingeniería en Robótica y Sistemas Digitales</strong> porque me apasiona la tecnología 
+                    y cómo esta puede mejorar la vida de las personas. Me gusta tocar el <strong>piano</strong>, 
+                    practicar <strong>deportes de raqueta</strong> y pasar tiempo con mi perro <strong>Wilson</strong>.
+                </p>
+                <p>
+                    Soy del Estado de México pero ya llevo alrededor de 10 años en Querétaro con mi familia. De comer me gusta la pasta, casi no veo
+                    películas pero me gustan todas las de "Terminator" o  apocalípticas.
+                </p>
+                <p>
+                    Mi serie favorita de anime es Demon Slayer, en especial me identifico con el personaje de <em>Gyu Tomioka</em>, un personaje serio y reservado  
+                    que refleja mi forma de ser: tranquilo, enfocado y algo selectivo con mis decisiones.
+                    <p><br><br></p>
+                </p>
+                <div class="dual-images">
+                    <img src="imagenes/pasta.jpg" alt="Pasta" width="300">
+                    <img src="imagenes/giyu_tomioka.jpg" alt="Gyu Tomioka" width="300">
+                </div>
+            </div>
+            
+            <div class="col">
+                <h2>Mi perro Wilson</h2>
+                <div class="dual-images">
+                    <img src="imagenes/wilson.jpg" alt="Mi perro Wilson" width="250">
+                    <img src="imagenes/wilson2.jpg" alt="Mi perro Wilson 2" width="250">
+                </div>
+                <p>Wilson es mi perro. Me encanta pasar tiempo con él y salir a pasear juntos. Es un Schnauzer muy juguetón y leal que siempre nos recibe con alegría cuando llegamos a casa.</p>
+                
+                <h2>Mis pasatiempos</h2>
+                <div class="dual-images">
+                    <img src="imagenes/raqueta.jpg" alt="Raqueta" width="200">
+                    <img src="imagenes/piano.jpg" alt="Piano" width="200">
+                </div>
+                <p>Disfruto mucho de los deportes de raqueta como tenis y ping-pong. También me relaja tocar el piano en mis tiempos libres, especialmente piezas clásicas o del romanticismo.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <h2>Spot, mi robot favorito</h2>
+                <p>
+                    Uno de mis robots favoritos es <strong>Spot</strong> de Boston Dynamics. Es un robot cuadrúpedo capaz 
+                    de desplazarse por terrenos difíciles, transportar objetos e incluso inspeccionar entornos peligrosos. 
+                    Su diseño modular y su inteligencia lo hacen un gran ejemplo de la innovación robótica moderna.
+                </p>
+                <p>
+                    Si quieres conocer más sobre Spot, puedes visitar este artículo:
+                    <a href="https://mfemexico.mx/producto/robot-spot-de-boston-dynamics/" target="_blank">
+                        Spot de Boston Dynamics en MFE México
+                    </a>
+                </p>
+                <div class="image-container">
+                    <img src="imagenes/spot.jpg" alt="Spot de Boston Dynamics" width="500">
+                </div>
+            </div>
+            
+            <div class="col">
+                <h2>Video de Spot en acción</h2>
+                <div class="image-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/wXxrmussq4E" 
+                        title="Spot de Boston Dynamics" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="highlight">
+                    <h3>Contáctame</h3>
+                    <p>
+                        Si quieres escribirme, puedes hacerlo al siguiente correo:  
+                        <a href="mailto:A01707900@tec.mx">A01707900@tec.mx</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 Botón de regreso al índice -->
+        <div class="button-container">
+            <a href="index.html" class="home-link">Regresar al Inicio</a>
+        </div>
+    </div>
+</body>
+</html>
