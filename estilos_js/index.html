@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve - Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Steve - Minecraft</h1>
+            <p class="subtitle">Haz clic en un ítem para ver a Steve en acción</p>
+        </header>
+
+        <div class="character-container">
+            <img id="character" src="../imagenes/principal.gif" alt="Steve en Minecraft">
+        </div>
+
+        <div class="buttons-container">
+            <button class="action-btn" onclick="cambiarAccion('construir')">
+                <img src="../imagenes/construir_item.jpg" alt="Construir">
+                <span>Construir</span>
+            </button>
+            
+            <button class="action-btn" onclick="cambiarAccion('minar')">
+                <img src="../imagenes/minar_item.jpg" alt="Minar">
+                <span>Minar</span>
+            </button>
+            
+            <button class="action-btn" onclick="cambiarAccion('pescar')">
+                <img src="../imagenes/pescar_item.jpg" alt="Pescar">
+                <span>Pescar</span>
+            </button>
+            
+            <button class="action-btn" onclick="cambiarAccion('pelear')">
+                <img src="../imagenes/pelear_item.jpg" alt="Pelear">
+                <span>Pelear</span>
+            </button>
+        </div>
+
+        <div class="back-container">
+            <a href="../index.html" class="back-btn">Volver al Inicio</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
